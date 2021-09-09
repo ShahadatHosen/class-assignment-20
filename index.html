@@ -118,21 +118,21 @@ var toastList = toastElList.map(function (toastEl) {
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <div class="carousel-item active maxwithk">
             <img src="./image/workplace-with-smartphone-laptop-black-table-top-view-copyspace-background_144627-24860.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>First slide label</h5>
               <p>Some representative placeholder content for the first slide.</p>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item maxwithk">
             <img src="./image/workplace-with-smartphone-laptop-black-table-top-view-copyspace-background_144627-24860.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Second slide label</h5>
               <p>Some representative placeholder content for the second slide.</p>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item maxwithk">
             <img src="./image/workplace-with-smartphone-laptop-black-table-top-view-copyspace-background_144627-24860.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
@@ -205,10 +205,10 @@ var toastList = toastElList.map(function (toastEl) {
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingOne">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                    Collapsible Group Item #1
+                   <a href="#"> Collapsible Group Item #1</a>
                   </button>
                 </h2>
-                <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlush">
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlush">
                   <div class="accordion-body">
                     This is the second item's accordion body.It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall.
                   </div>
@@ -217,10 +217,10 @@ var toastList = toastElList.map(function (toastEl) {
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingTwo">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                    Collapsible Group Item #2
+                    <a href="#"> Collapsible Group Item #2</a>
                   </button>
                 </h2>
-                <div id="flush-collapseTwo" class="accordion-collapse collapse show" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlush">
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlush">
                   <div class="accordion-body">
                     This is the second item's accordion body.It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall.
                   </div>
@@ -229,10 +229,10 @@ var toastList = toastElList.map(function (toastEl) {
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingThree">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                    Collapsible Group Item #3
+                    <a href="#"> Collapsible Group Item #3</a>
                   </button>
                 </h2>
-                <div id="flush-collapseThree" class="accordion-collapse collapse show" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlush">
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlush">
                   <div class="accordion-body">
                     This is the second item's accordion body.It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall.
                   </div>
@@ -277,6 +277,7 @@ var toastList = toastElList.map(function (toastEl) {
           </div>
 
           <div class="col-lg-6">
+            
             <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
               Tooltip on top
             </button>
@@ -289,8 +290,46 @@ var toastList = toastElList.map(function (toastEl) {
             <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
               Tooltip on left
             </button>
+            
+            
 
           
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+          
+
+            <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+              <a class="navbar-brand" href="#">Project Name</a>
+              <ul class="nav nav-pills">
+                <li class="nav-item">
+                  <a class="nav-link" href="#scrollspyHeading1">Verse 1</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#scrollspyHeading2">Verse 2</a>
+                </li>
+               
+              </ul>
+            </nav>
+            <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+              <h4 id="scrollspyHeading1">Verse 1</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quidem minus accusamus sed numquam consequatur expedita voluptatem itaque tenetur totam nihil velit nulla, nobis cumque rerum. Dolorem porro voluptates sint, alias harum laborum dignissimos repellat ab voluptate necessitatibus, cum consequuntur in assumenda nesciunt aliquam vero ducimus atque repellendus inventore corporis similique! Maiores, asperiores laudantium. Magni enim ducimus saepe impedit ratione explicabo ab, nihil vero! Esse, voluptatum deserunt earum repellendus in ratione. Recusandae non modi ut aperiam quas voluptates facere enim sunt iusto, eligendi totam esse repellendus fugit, excepturi delectus vel laudantium provident. Tempora modi, dolorum quo doloremque animi deleniti iusto quae consequuntur, et rem esse ad facilis, ex ullam optio quas praesentium? Dicta odit, minus neque voluptatibus ad facilis quidem?</p>
+              <h4 id="scrollspyHeading2">Verse 2</h4>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil nisi libero iste aspernatur provident, cum placeat quia laborum? Ipsam labore earum temporibus voluptatibus consequatur nesciunt sed, quos amet delectus quo quibusdam repudiandae cumque laboriosam dignissimos, sint veritatis. Doloremque corporis earum vero, aspernatur omnis magni necessitatibus ex fuga iusto iure illo, sed officia ipsum esse cumque nesciunt consequuntur blanditiis eius! Qui praesentium doloribus libero debitis laudantium. Dolore ab nesciunt optio veritatis deleniti et commodi nihil tenetur, incidunt aut. Neque quo id, asperiores ullam distinctio exercitationem illum explicabo incidunt corporis sed corrupti consequatur quaerat officiis libero dolore eligendi ipsa rerum vero sunt illo, maxime inventore minima quam. Itaque, tempore sapiente obcaecati voluptates quis quas nobis, quos explicabo soluta repellat libero dicta atque.</p>
+             
+            </div>
+            
+          
+            
+            
+            
           </div>
         </div>
       </div>
@@ -346,6 +385,8 @@ var toastList = toastElList.map(function (toastEl) {
 
 
 
+ 
+
 
     
     <!-- Optional JavaScript; choose one of the two! -->
@@ -358,5 +399,7 @@ var toastList = toastElList.map(function (toastEl) {
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
     -->
+
+  
   </body>
 </html>
