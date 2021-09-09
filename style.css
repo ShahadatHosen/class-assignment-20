@@ -1,0 +1,40 @@
+img{
+    width: 100%;
+}
+
+/* hedder section */
+
+.navbar-brand img{
+    width: auto;
+    height: 40px;
+}
+
+.heddersection{
+    background-color: #e3f2fd;
+}
+
+/* bread section */
+
+.breadsection{
+    margin-top: 20px;
+}
+
+
+.breadcrumb{
+    padding: 10px ;
+    background-color: #e9ecef;
+
+
+}
+
+
+/* alert section */
+
+.alert strong{
+    
+}
+
+
+footer{
+    background-color: #17a2b8;
+}
